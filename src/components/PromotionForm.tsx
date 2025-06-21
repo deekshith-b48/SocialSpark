@@ -31,6 +31,7 @@ import { Loader2 } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 import { EventPreviewCard } from './EventPreviewCard';
 import type { ExtractEventDetailsOutput } from '@/ai/flows/extract-event-details-from-url';
+import { Label } from '@/components/ui/label';
 
 const platforms = [
   { id: 'linkedin', label: 'LinkedIn' },
@@ -169,7 +170,7 @@ export function PromotionForm({ setIsLoading, setGeneratedContent }: PromotionFo
   return (
     <div className="space-y-6">
         <div className="space-y-2">
-            <FormLabel htmlFor="event-url">Paste Event URL</FormLabel>
+            <Label htmlFor="event-url">Paste Event URL</Label>
             <div className="flex gap-2">
             <Input
                 id="event-url"
@@ -189,9 +190,9 @@ export function PromotionForm({ setIsLoading, setGeneratedContent }: PromotionFo
                 Fetch & Fill
             </Button>
             </div>
-            <FormDescription>
+            <p className="text-sm text-muted-foreground">
              From Eventbrite, Luma, Meetup, etc. We'll try to auto-fill the form.
-            </FormDescription>
+            </p>
         </div>
 
         {fetchedDetails ? (
