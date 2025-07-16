@@ -15,12 +15,12 @@ SocialSpark is a modern social networking application designed to connect people
 
 ## Tech Stack 🛠️
 
-- **Frontend:** (React.js / Next.js / Vue.js) ⚛️
-- **Backend:** (Node.js / Express / Django / Flask) 🐍
-- **Database:** (MongoDB / PostgreSQL / MySQL) 🗄️
-- **Authentication:** JWT / OAuth 🛡️
-- **Storage:** AWS S3 / Firebase Storage (for media uploads) ☁️
-- **Real-time:** WebSockets / Socket.io (for notifications and chat) 🔄
+- **Frontend:** (React.js ) ⚛️
+- **Backend:** (Node.js / Express) 🐍
+- **Database:** (MongoDB ) 🗄️
+- **Authentication:**  OAuth 🛡️
+- **Storage:** Firebase Storage (for media uploads) ☁️
+- **Real-time:** Socket.io (for notifications and chat) 🔄
 
 *Note: Replace with your actual stack if different.*
 
